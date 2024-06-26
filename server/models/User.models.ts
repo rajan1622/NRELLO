@@ -1,5 +1,5 @@
 import {Schema, model, Document} from 'mongoose'
-import { generateHash } from '../utils/hash';
+import { generateHash } from '../../utils/hash';
 import bcrypty from 'bcryptjs';
 
 export interface UserDocument extends Document {
@@ -72,3 +72,4 @@ const userSchema = new Schema(
   };
 
   export const User = model<UserDocument>("User", userSchema);
+  let m = 10;
