@@ -92,7 +92,7 @@ bcryptjs stripe vuedraggable@next next-auth@4.21.1 @vueup/vue-quill
 
 1. Clone the repository:
    ```
-   git clone https://github.com/jahidanowar/nuxt-trello.git
+   git clone https://github.com/rajan1622/NRELLO.git
    ```
 2. Navigate to the project directory:
    ```
