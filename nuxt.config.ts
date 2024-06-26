@@ -1,4 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true }
+  devtools: { enabled: true },
+
+  modules:['@nuxt/ui','nuxt-server-utils'],
+  
+  ui:{},
+
+  nuxtServerUtils:{
+    mongodbUri: process.env.NEXTAUTH_URL,
+  }
 })
